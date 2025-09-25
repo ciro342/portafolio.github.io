@@ -803,7 +803,7 @@ section {
     }   
 }
 .btn-demo-mobile {
-  display: none; /* Oculto en escritorio */
+  display: none; 
   text-decoration: none;
   padding: 10px 15px;
   background-color: #f8f9fa;
@@ -820,7 +820,7 @@ section {
         padding: 0 1rem;
     }
  .btn-demo-mobile {
-    display: inline-block; /* Visible en móvil/tablet */
+    display: inline-block; 
   }
         .nav-menu {
             display: none;
@@ -937,4 +937,5 @@ section {
         left: 6px;
     }
 }
+
 
