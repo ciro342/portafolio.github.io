@@ -802,13 +802,26 @@ section {
         transform: translateX(0);
     }   
 }
+.btn-demo-mobile {
+  display: none; /* Oculto en escritorio */
+  text-decoration: none;
+  padding: 10px 15px;
+  background-color: #f8f9fa;
+  color: #000;
+  border-radius: 8px;
+  font-weight: bold;
+  margin-top: 10px;
+  box-shadow: 0px 2px 6px rgba(0,0,0,0.15);
+}
 
 /* Responsive */
 @media (max-width: 768px) {
     .container {
         padding: 0 1rem;
     }
-
+ .btn-demo-mobile {
+    display: inline-block; /* Visible en móvil/tablet */
+  }
         .nav-menu {
             display: none;
             position: absolute;
